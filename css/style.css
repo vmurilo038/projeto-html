@@ -1,24 +1,138 @@
-header{
-    background-color: #1b78e3;
+* {
+    padding: 0%;
+    margin: 0%;
+}
+header {
+    background-color: #4b96bd;
+    height: 110px;
+
     display: flex;
     flex-direction: row;
-    flex-wrap: nowrap;
-    justify-content: space-around;
     align-items: center;
+
+    justify-content: space-around;
+
+    padding: 0 30px;
+
     cursor: pointer;
 }
-.img-floco{
-    display: flex;
-    align-self: center;
+
+.img-floco {
+    width: 120px;
+    height: 80px;
 }
-a{
+
+a {
     text-decoration: none;
     color: white;
     font-size: 30px;
     cursor: pointer;
 }
-a:hover{
-    color: white;
+
+a:hover {
     opacity: 0.5;
+    transition: 0.5s;
+}
+.texto {
+    display: inline-block;
+    width: 50%;
+    margin-left: 80px;
+    vertical-align: middle;
+    font-size: 21px;
+    color: rgb(69, 148, 223);
+}
+
+.img-inverno1 {
+    display: inline-block;
+    width: 400px;
+    margin-left: 80px;
+    vertical-align: middle;
+    justify-content: flex-end;
+}
+
+.parte-azul {
+    width: 100%;
+    height: 240px;
+
+    background-color: #4b96bd;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.img-gramado {
+    width: 270px;
+    height: 180px;
+    object-fit: cover;
+}
+
+.parte-azul p {
+    color: white;
+    font-size: 30px;
+    text-align: center;
+}
+
+
+.galeria {
+    width: 100%;
+    height: 320px;
+    background-color: #e8f3f7;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.fotos {
+    display: flex;
+    align-items: center;
+    gap: 55px;
+}
+
+.galeria img {
+    width: 300px;
+    height: 200px;
+    object-fit: cover;
+}
+
+footer {
+    width: 100%;
+    height: 120px;
+
+    background-color: #4b96bd;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.redes {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    cursor: pointer;
+}
+
+.redes img {
+    width: 70px;
+    height: 70px;
+}
+
+footer p {
+    color: white;
+    font-size: 18px;
+}
+
+.pinguim {
+    width: 80px;
+    height: 80px;
+    cursor: pointer;
+    object-fit: contain;
+}
+
+.redes img:hover {
+    width: 100px;
+    height: 100px;
     transition: 0.5s;
 }
